@@ -35,6 +35,6 @@ API Setup:
 * Doesn't show results
 
 ## License
-[MIT][<a href>=https://github.com/KaiKohlsdorf/Exchange-Rate-API/blob/main/LICENSE></a>]
+[<a href=https://github.com/KaiKohlsdorf/Exchange-Rate-API/blob/main/LICENSE>MIT</a>]
 
 Copyright (c) July 4, 2022 Kai Kohlsdorf
