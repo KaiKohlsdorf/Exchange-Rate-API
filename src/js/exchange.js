@@ -1,5 +1,3 @@
-import { displayError } from './index.js';
-
 export class ExchangeRate {  
   static async getExchangeRate(currencyFrom, currencyTo, currencyAmt) {
     try {
