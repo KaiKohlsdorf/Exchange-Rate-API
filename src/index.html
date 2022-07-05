@@ -8,34 +8,34 @@
   <div class="container">
     <h1>Currency Exchange Calculator</h1>
     <label for="amount">Input an amount you would like to exchange into another currency:</label>
-    <input id="amount" type="number">
-    
-    <br>
-    <br>
-    
-    <label for="currency-from">Convert from: </label>
-    <select name="currency-from" id="exchangeFrom"></select>
-
+    <input type="number" class="form-control" id="currencyAmount">
+      
     <br>
     <br>
 
-    <label for="currency-to">Exchange to: </label>
-    <select name="currency-to" id="exchangeTo"></select>
-   
+    <label for="currencyFrom">Convert From:</label>
+    <select class="form-control" id="currencyFrom">
+      <option></option>
+    </select>
+      
     <br>
     <br>
-    
-    <button class="btn-success" id="exchange">Get Exchange Rate!</button>
+      
+    <label for="currencyTo">Convert To:</label>
+    <select class="form-control" id="currencyTo">
+      <option></option>
+    </select>
+     
+    <br>
+    <br>
+
+    <button id="exchange" class="btn btn-info">Exchange</button>
     <div class="showErrors"></div>
   </div>
 
   <br>
 
-  <div class="showRate">Exchange Rate:</div>
-
-  <br>
-
-  <div class="showAmt">Your Amount:</div>
-
+  <div id="showAmt">Your Amount:</div>
+  
 </body>
 </html>
