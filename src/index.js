@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import { ExchangeRate, convertMonies } from './js/exchange.js';
+import { ExchangeRate, conver/.˘˘tMonies } from './js/exchange.js';
 
 function getElements(response) {
   if (response.main) {

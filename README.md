@@ -17,7 +17,7 @@
 
 * _clone repo to your chosen directory_
 * _You will need a new API key to run this app. Instructions follow below_
-* _`$npm install --save-dev`_
+* _`$ npm install --save-dev`_
 * _`$ npm audit fix --force`_
 * _`$ npm run build`_
 * _`$ npm run start`_
@@ -32,8 +32,9 @@ API Setup:
 
 ## Known Bugs
 
-* N/A
+* Doesn't show results
 
 ## License
+[MIT][<a href=https://github.com/KaiKohlsdorf/Exchange-Rate-API/blob/main/LICENSE></a>]
 
-## Contact Information
+Copyright (c) July 4, 2022 Kai Kohlsdorf
