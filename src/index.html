@@ -2,12 +2,40 @@
 <html lang="en-US"></html>
 <html>
 <head>
-  <title>Exchange Rate</title>
+  <title>Currency Exchange Calculator</title>
 </head>
 <body>
   <div class="container">
-    <h1>Get your exchange rate from USD to the following countries:</h1>
+    <h1>Currency Exchange Calculator</h1>
+    <label for="amount">Input an amount you would like to exchange into another currency:</label>
+    <input id="amount" type="number">
     
+    <br>
+    <br>
+    
+    <label for="currency-from">Convert from: </label>
+    <select name="currency-from" id="exchangeFrom"></select>
+
+    <br>
+    <br>
+
+    <label for="currency-to">Exchange to: </label>
+    <select name="currency-to" id="exchangeTo"></select>
+   
+    <br>
+    <br>
+    
+    <button class="btn-success" id="exchange">Get Exchange Rate!</button>
+    <div class="showErrors"></div>
   </div>
+
+  <br>
+
+  <div class="showRate">Exchange Rate:</div>
+
+  <br>
+
+  <div class="showAmt">Your Amount:</div>
+
 </body>
 </html>
